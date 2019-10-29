@@ -1,0 +1,52 @@
+{
+    "name": "talk-tailwind",
+    "version": "1.0.0",
+    "description": "Demonstrates the Tailwind CSS framework for South Dakota Code Camp 2019.",
+    "main": "gulpfile.js",
+    "browserslist": [
+        "> 1%"
+    ],
+    "dependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/preset-env": "^7.6.3",
+        "autoprefixer": "^9.7.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-beautify-code": "^2.0.4",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect": "^5.7.0",
+        "gulp-eslint": "^6.0.0",
+        "gulp-minify": "^3.1.0",
+        "gulp-open": "^3.0.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-purgecss": "^1.2.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-twig": "^1.2.0",
+        "tailwindcss": "^1.1.3"
+    },
+    "eslintConfig": {
+        "extends": "eslint:recommended",
+        "rules": {
+            "camelcase": 1,
+            "eqeqeq": 1,
+            "no-undef": 0
+        },
+        "env": {
+            "browser": true,
+            "jquery": true
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/michaelsedits/talk-tailwind.git"
+    },
+    "author": "Michael Todd",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/michaelsedits/talk-tailwind/issues"
+    },
+    "homepage": "https://github.com/michaelsedits/talk-tailwind#readme"
+}
