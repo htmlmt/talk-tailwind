@@ -1,7 +1,7 @@
 {
     "name": "talk-tailwind",
     "version": "1.0.0",
-    "description": "Demonstrates the Tailwind CSS framework for South Dakota Code Camp 2019.",
+    "description": "This one-page site demonstrates the Tailwind CSS framework for South Dakota Code Camp 2019.",
     "main": "gulpfile.js",
     "browserslist": [
         "> 1%"
