@@ -6,8 +6,9 @@ module.exports = {
     plugins: [
         function({ addUtilities }) {
             const newUtilities = {
-                '.top-50': {
-                    top: '50%'
+                '.center-v': {
+                    top: '50%',
+                    transform: 'translate(0, -50%)'
                 }
             }
             

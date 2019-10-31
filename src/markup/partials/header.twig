@@ -2,11 +2,15 @@
     border-b
 ">
     <div class="
+        relative
+        
         md:content-center
         md:justify-between
         md:flex
         
-        px-8
+        pl-8
+        pr-40
+        md:pr-8
         py-4
         mx-auto
         
@@ -19,7 +23,7 @@
                 Nebraska Admirals Association
             </a>
         </h1>
-        <button class="
+        <button id="nominateAnAdmiral" class="
             bg-blue-700
             hover:bg-blue-500
             
@@ -32,6 +36,29 @@
             py-2
         ">
             Nominate an Admiral
+        </button>
+        <button id="openMenu" class="
+            md:hidden
+            absolute
+            right-0
+            md:right-auto
+            top-0
+            md:top-auto
+            
+            hover:bg-gray-200
+            
+            font-bold
+            
+            border
+            border-gray-500
+            rounded
+            
+            px-4
+            py-2
+            mr-8
+            mt-4
+        ">
+            Menu
         </button>
     </div>
     {% include '../partials/alert.twig' %}

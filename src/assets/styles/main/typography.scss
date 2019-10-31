@@ -30,10 +30,13 @@ h1 {
 h2,
 h3,
 h4,
-hr,
 ul,
 ol {
     @apply mb-6;
+}
+
+hr {
+    @apply my-6;
 }
 
 p {
