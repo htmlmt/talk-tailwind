@@ -6,7 +6,7 @@ To see slides that correspond with this project, head to [bit.ly/tailwindtalk](h
 
 ## Project setup
 
-This project uses Gulp to concatenate and minify JS, compile LESS to CSS, and convert Twig templates into HTML.
+This project uses Gulp to concatenate and minify JS, compile SCSS to CSS, and convert Twig templates into HTML.
 
 To install node modules, run: `npm install`
 
