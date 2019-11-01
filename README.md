@@ -2,7 +2,7 @@
 
 This is a one-page site that demonstrates the Tailwind CSS framework and accompanies a talk given at South Dakota Code Camp 2019.
 
-To see slides that correspond with this project, head to [bit.ly/tailwindtalk](bit.ly/tailwindtalk)
+To see slides that correspond with this project, head to [bit.ly/tailwindtalk](https://bit.ly/tailwindtalk)
 
 ## Project setup
 
