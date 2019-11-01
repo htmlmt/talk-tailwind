@@ -2,6 +2,12 @@
 // Base
 //
 
-@import 'main/tailwind';
+@tailwind base;
+
+@tailwind components;
+
+@import 'main/buttons';
+
+@tailwind utilities;
 
 @import 'main/typography';
