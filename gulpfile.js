@@ -65,12 +65,6 @@ gulp.task('js', function(done) {
     done();
 });
 
-class TailwindExtractor {
-    static extract(content) {
-        return content.match(/[A-z0-9-:\/]+/g);
-    }
-}
-
 // Creates CSS sourcemaps, converts SCSS to CSS, adds prefixes, and lints CSS
 gulp.task('sass', function(done) {
     var plugins = [
@@ -83,6 +77,10 @@ gulp.task('sass', function(done) {
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss(plugins))
         .pipe(cleancss({compatibility: 'ie11'}))
+        .pipe(purgecss({
+            content: ['dist/**/*.html'],
+            defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+        }))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest(roots.dist + '/css'))
         .pipe(connect.reload());
