@@ -27,7 +27,7 @@ var connect = require('gulp-connect');
 var open = require('gulp-open');
 
 var localhost = 'http://0.0.0.0:8080/';
-var netlify = 'https://nebraskaadmirals.netlify.com/';
+var netlify = 'https://admirals.netlify.com/';
 
 var roots = {
     assets: './src/assets',
