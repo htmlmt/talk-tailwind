@@ -1,0 +1,77 @@
+h1 {
+    @apply text-2xl;
+}
+
+h2 {
+    @apply text-lg;
+}
+
+h3 {
+    @apply text-base;
+    @apply uppercase;
+}
+
+h4 {
+    @apply text-base;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    @apply font-bold;
+    @apply text-blue-800;
+}
+
+h1 {
+    @apply mb-4;
+}
+
+h2,
+h3,
+h4,
+ul,
+ol {
+    @apply mb-6;
+}
+
+hr {
+    @apply my-6;
+}
+
+p {
+    @apply mb-4;
+}
+
+ol,
+li {
+    @apply list-inside;
+}
+
+ul {
+    @apply list-disc;
+}
+
+li {
+    @apply mb-2;
+}
+
+a {
+    @apply underline;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        @apply mb-0;
+        @apply text-3xl;
+    }
+    
+    h2 {
+        @apply text-xl;
+    }
+    
+    h3,
+    h4 {
+        @apply text-lg;
+    }
+}

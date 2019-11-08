@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+{% include 'head.twig' %}
+<body>
+    {% include '../partials/header.twig' %}
+    
+    <div class="
+        justify-between
+        md:flex
+        
+        px-8
+        py-4
+        mx-auto
+        my-8
+        
+        max-w-6xl
+    ">
+        <div class="
+            md:w-2/12
+        ">
+            {% include '../partials/navigation.twig' %}
+        </div>
+        
+        <div class="
+            md:w-9/12
+        ">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    
+    {% include 'scripts.twig' %}
+</body>
+</html>

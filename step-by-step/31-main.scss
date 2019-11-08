@@ -1,0 +1,13 @@
+//
+// Base
+//
+
+@tailwind base;
+
+@tailwind components;
+
+@import 'main/buttons';
+
+@tailwind utilities;
+
+@import 'main/typography';
