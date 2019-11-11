@@ -33,15 +33,15 @@ module.exports = {
         // zIndex: ['responsive'],
     },
     plugins: [
-        // function({ addUtilities }) {
-        //     const newUtilities = {
-        //         '.center-v': {
-        //             top: '50%',
-        //             transform: 'translate(0, -50%)'
-        //         }
-        //     }
-        // 
-        //     addUtilities(newUtilities);
-        // }
+        function({ addUtilities }) {
+            const newUtilities = {
+                '.center-v': {
+                    top: '50%',
+                    transform: 'translate(0, -50%)'
+                }
+            }
+        
+            addUtilities(newUtilities);
+        }
     ]
 }
