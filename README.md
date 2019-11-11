@@ -13,3 +13,7 @@ This project uses Gulp to concatenate and minify JS, compile SCSS to CSS, and co
 To install node modules, run: `npm install`
 
 To start a server to the static HTML files and watch src files for changes, run: `gulp`
+
+## Questions?
+
+Email me at howdy@thefullmt.com.
